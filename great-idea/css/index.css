@@ -71,8 +71,8 @@ h1, h2, h3, h4, h5 {
 	}
 	a {
 		color:gray;
-		margin: 0 auto;
-		padding:20px;
+		padding:10px;
+		margin:auto;
 		text-decoration-line: none; 
 	
 	
@@ -84,36 +84,34 @@ h1, h2, h3, h4, h5 {
 	}
 	a:hover{
 		color: darkblue;
-		transform: skewY(1deg);
+		transform: skewY(2deg);
 	}
-	.logo {
-		display:flex;
-		
-	}
+	
 	
 	
 	.title{
-	
-	font-size: 70px;
-	width:600px;
-	display:inline-block;
-	vertical-align: 100px;
-	padding:30px;
+	font-size: 50px;
+	width:550px;
+	display:flex;
+	flex-direction: column;
+	padding:110px;
 	}
 	h1{
 	font-family: 'Wallpoet', cursive;
 	
 	}
 	.image{
-		
 		padding:20px;
-		display:inline-block;
+		align-self: stretch;
+
 	}
 	
 	button{
+		width: 100px;
 		padding: 10px;
 		border-radius: 30px;
 		background: transparent;
+		align-self: center;
 		
 	}
 		button:hover{
@@ -122,33 +120,36 @@ h1, h2, h3, h4, h5 {
 			transform: skewY(4deg);
 			border: 1px solid rgb(8, 72, 88);
 		}
+	.content-row{
+		display:flex;
+		justify-content: center;
+		
+	}
 	
-	
+	.firstTwoSections {
+		display:flex;
+		justify-content: center;
+	}
 	.Features{
 		width:400px;
-		display:inline-block;
 		padding: 20px;
 	}
 	.About{
 		width:400px;
-		display:inline-block;
-		padding: 20px
+		padding: 20px;
 	}
 	
 	.Services{
 		
 		width:300px;
-		display:inline-block;
 		padding:20px;
 	}
 	.Product{
 		width:300px;
-		display:inline-block;
 		padding:20px;
 	}
 	.Vision{
 		width:300px;
-		display: inline-block;
 		padding: 20px;
 	}
 	.container2{
@@ -169,3 +170,44 @@ h1, h2, h3, h4, h5 {
 		color: darkblue;
 		transform: skewY(5deg);
 	}
+
+	/*services css*/
+
+.services-header-img{
+	padding: 30px 0 0 0;
+	align-self: stretch;
+}
+
+.Services-header{
+	padding:20px;
+}
+.Servicesfont{
+	font-size: 30px;
+	font-family: 'Permanent Marker',cursive;
+}
+
+.container3{
+	background:pink;
+	height:800px;
+	display:flex;
+	padding:20px;
+	flex-wrap: wrap;
+	align-self: center;
+}
+.light{
+	background: #8E8787;
+	width:400px;
+	height:200px;
+	padding:20px;
+	margin:10px;
+	border:1px solid black;
+}
+
+.dark{
+background:#565353;
+width:400px;
+height:200px;
+padding:20px;
+margin:10px;
+border: 1px solid black;
+}
