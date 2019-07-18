@@ -173,7 +173,13 @@ h1, h2, h3, h4, h5 {
 	}
 
 	/*services css*/
-
+.container-services{
+	
+	width:990px;
+	margin: auto;
+	padding: 50px 0 0 0;
+	
+}
 .services-img{
 	padding: 50px 0 10px;
 	display: flex;
